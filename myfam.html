@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0E0E52;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .family-item {
+            background-color: #150578;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .family-item img {
+            width: 100%;
+            height: 150px;  /* Adjusted height for rectangular shape */
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .family-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .family-item h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #78C0E0;
+        }
+
+        .family-item:active {
+            transform: scale(1.05);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .family-item:hover {
+            background-color: #449DD1;
+            transform: scale(1.05);
+        }
+
+        .family-item:focus-visible {
+            outline: none;
+        }
+
+        .back-link {
+            margin-top: 30px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #449DD1;
+            border: 2px solid #449DD1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-link:hover {
+            background-color: #3943B7;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="family-item">
+            <img src="fam2.jpeg" alt="New Year">
+            <h3>New Year 2025</h3>
+        </div>
+
+        <div class="family-item">
+            <img src="fam3.jpeg" alt="Christmas">
+            <h3>Christmas 2024</h3>
+        </div>
+
+        <div class="family-item">
+            <img src="fam4.jpeg" alt="Swimming">
+            <h3>Swimming Outing 2023</h3>
+        </div>
+
+        <div class="family-item">
+            <img src="fam5.jpeg" alt="Wedding">
+            <h3>Wedding 2022</h3>
+        </div>
+	
+	<div class="family-item">
+            <img src="fam1.jpeg" alt="Coron">
+            <h3>Coron Palawan 2016</h3>
+        </div>
+
+	<div class="family-item">
+            <img src="fam6.jpeg" alt="Intramuros">
+            <h3>Intramuros 2014</h3>
+        </div>
+
+
+	<div class="family-item">
+            <img src="fam7.jpeg" alt="Birthday">
+            <h3>My 7th Birthday 2013</h3>
+        </div>
+
+
+	<div class="family-item">
+            <img src="fam8.jpeg" alt="Bonding">
+            <h3>Robinson Imus 2012</h3>
+        </div>
+
+	<a href="indexx.html" class="back-link">Back to Home</a>
+    </div>
+
+</body>
+</html>

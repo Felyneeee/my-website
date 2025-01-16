@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0E0E52;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .favorite-item {
+            background-color: #150578;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .favorite-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .favorite-item h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #78C0E0;
+        }
+
+        .favorite-item:hover {
+            background-color: #449DD1;
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .back-link {
+            margin-top: 30px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #449DD1;
+            border: 2px solid #449DD1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-link:hover {
+            background-color: #3943B7;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="favorite-item">
+            <img src="movie.jpeg" alt="How to Lose a Guy in 10 Days">
+            <h3>How to Lose a Guy in 10 Days</h3>
+        </div>
+
+        <div class="favorite-item">
+            <img src="series.jpeg" alt="The Big Bang Theory">
+            <h3>The Big Bang Theory</h3>
+        </div>
+
+        <div class="favorite-item">
+            <img src="food.jpeg" alt="Cookies and Cream">
+            <h3>Cookies and Cream</h3>
+        </div>
+
+        <div class="favorite-item">
+            <img src="hobby.jpeg" alt="Badminton">
+            <h3>Badminton</h3>
+        </div>
+
+        <div class="favorite-item">
+            <img src="game.jpeg" alt="Animal Crossing">
+            <h3>Animal Crossing</h3>
+        </div>
+
+        <div class="favorite-item">
+            <img src="song.jpeg" alt="No. 1 Party Anthem">
+            <h3>No. 1 Party Anthem</h3>
+        </div>
+
+	<div class="favorite-item">
+            <img src="manhwa.jpeg" alt="Wind Breaker">
+            <h3>Wind Breaker</h3>
+        </div>
+
+	<div class="favorite-item">
+            <img src="anime.jpeg" alt="Orange">
+            <h3>Orange</h3>
+        </div>
+
+	<div class="favorite-item">
+            <img src="career.jpeg" alt="Software Engineer">
+            <h3>Software Engineer</h3>
+        </div>
+
+	<div class="favorite-item">
+            <img src="pet.jpeg" alt="Cats and Dogs">
+            <h3>Cats and Dogs</h3>
+        </div>
+
+	<a href="indexx.html" class="back-link">Back to Home</a>
+    </div>
+
+</body>
+</html>

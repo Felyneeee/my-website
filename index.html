@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Alessandra Phoebe Bautista</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #150578;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #78C0E0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #449DD1;
+            font-size: 1.2em;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #3943B7;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Website of Alessandra Phoebe Bautista</h1>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="resume.docx" class="nav-link">My Resume</a>
+            <a href="myself.html" class="nav-link">Myself</a>
+            <a href="myfavorites.html" class="nav-link">My Favorites</a>
+            <a href="myfam.html" class="nav-link">My Family</a>
+        </nav>
+    </div>
+</body>
+</html>
